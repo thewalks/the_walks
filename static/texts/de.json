@@ -1,0 +1,26 @@
+{
+  "id": "",
+  "welcome": "The Walks ist eine von Rimini Protokoll entwickelte Performance-Serie für bestimmte Arten von Orten und Körpern in Bewegung.",
+  "actions": {
+    "continue": "weiter"
+  }, 
+  "medias" : [{
+  	"id": "Apheek3e",
+  	"paid" : false,
+  	"title": "Vor dem Theater",
+  	"excerpt": "Das Bühnenhaus ist vor dem Hebbel am Ufer.",
+  	"description" : "My apologies, I noticed that you mistyped a similar place name. The correct name is \"Vor dem Theater\".",
+  	"duration": 878.184000,
+  	"srcUri": "https://angry-fermi-c85f46.netlify.app/media/de01.mp3",
+  	"iconUri": "",
+  	"hasCountdown": false,
+  	"nextMedias": [],
+  	"popups": [{
+  		"type": "",
+  		"title": "",
+  		"triggerTime": "",
+  		"uri": ""
+  	}],
+  	"userMedia": []
+  }]
+}
