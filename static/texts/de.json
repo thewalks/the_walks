@@ -4,17 +4,49 @@
   "actions": {
     "continue": "weiter"
   }, 
-  "medias" : [{
-  	"id": "Apheek3e",
-  	"paid" : false,
+  "medias": [{
+  	"id": "Eer0quuj",
+  	"paid": false,
+    "listed": true,
   	"title": "Vor dem Theater",
   	"excerpt": "Das Bühnenhaus ist vor dem Hebbel am Ufer.",
-  	"description" : "My apologies, I noticed that you mistyped a similar place name. The correct name is \"Vor dem Theater\".",
+  	"description": "My apologies, I noticed that you mistyped a similar place name. The correct name is \"Vor dem Theater\".",
   	"duration": 878.184000,
   	"srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01.mp3",
   	"iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
   	"hasCountdown": false,
-  	"nextMedias": [],
+  	"nextMedias": [{"id":""}],
+    "userPrompt": [
+      {
+        "title": "Start the walk now",
+        "triggerTime": 0,
+        "actions": [{
+          "title": "starte den Walk",
+          "action": "start"
+        }]
+      },{
+        "title": "Zeig deine Umgebung mit einem Foto.",
+        "triggerTime": 200,
+        "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01Loop.mp3",
+        "actions": [{
+          "title": "Mach ein Foto",
+          "action": "picture",
+          ""
+        }]
+      },{
+        "title": "Finden einen Mülleimer und mache ein Foto.",
+        "triggerTime": 878.184000,
+        "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01Loop.mp3",
+        "actions": [{
+          "title": "Mach ein Foto",
+          "action": "picture",
+          "postAction": "map"
+        },{
+          "title": "kein Foto",
+          "action": "map"
+        }]
+      }
+    ],
   	"popups": [{
   		"type": "",
   		"title": "",
@@ -22,5 +54,40 @@
   		"uri": ""
   	}],
   	"userMedia": []
+  },{
+    "id": "Apheek3e",
+    "paid": true,
+    "listed": true,
+    "title": "An einer Straße",
+    "excerpt": "Das Bühnenhaus ist vor dem Hebbel am Ufer.",
+    "description": "My apologies, I noticed that you mistyped a similar place name. The correct name is \"Vor dem Theater\".",
+    "duration": 1178.520000,
+    "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de02.mp3",
+    "iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
+    "hasCountdown": false,
+    "nextMedias": [],
+    "userPrompt": [],
+    "popups": [{
+      "type": "",
+      "title": "",
+      "triggerTime": "",
+      "uri": ""
+    }],
+    "userMedia": []
+  },{
+    "id": "Udie9hoh",
+    "paid": true,
+    "listed": true,
+    "title": "Gehen mit Steff",
+    "excerpt": "Das Bühnenhaus ist vor dem Hebbel am Ufer.",
+    "description": "My apologies, I noticed that you mistyped a similar place name. The correct name is \"Vor dem Theater\".",
+    "duration": 940.632000,
+    "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de03.mp3",
+    "iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
+    "hasCountdown": false,
+    "nextMedias": [],
+    "userPrompt": [],
+    "popups": [],
+    "userMedia": []
   }]
 }
