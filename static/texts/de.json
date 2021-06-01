@@ -1,9 +1,6 @@
 {
   "id": "noong4Th",
-  "welcome": "The Walks ist eine von Rimini Protokoll entwickelte Performance-Serie für bestimmte Arten von Orten und Körpern in Bewegung.",
-  "actions": {
-    "continue": "weiter"
-  }, 
+  "about": "The Walks ist eine von Rimini Protokoll entwickelte Performance-Serie für bestimmte Arten von Orten und Körpern in Bewegung.", 
   "medias": [{
   	"id": "Eer0quuj",
   	"paid": false,
@@ -15,22 +12,18 @@
   	"srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01.mp3",
   	"iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
   	"hasCountdown": false,
-  	"nextMedias": [{"id":""}],
     "userPrompt": [
       {
-        "title": "Start the walk now",
-        "triggerTime": 0,
-        "actions": [{
-          "title": "starte den Walk",
-          "action": "start"
-        }]
-      },{
         "title": "Zeig deine Umgebung mit einem Foto.",
-        "triggerTime": 200,
+        "triggerTime": 20,
         "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01Loop.mp3",
         "actions": [{
           "title": "Mach ein Foto",
-          "action": "picture"
+          "action": "picture",
+           "postAction": "map"
+          },{
+            "title": "kein Foto",
+            "action": "map"
         }]
       },{
         "title": "Finden einen Mülleimer und mache ein Foto.",
@@ -64,8 +57,21 @@
     "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de02.mp3",
     "iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
     "hasCountdown": false,
-    "nextMedias": [],
-    "userPrompt": [],
+    "userPrompt": [
+      {
+        "title": "Finden einen Mülleimer und mache ein Foto.",
+        "triggerTime": 20,
+        "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01Loop.mp3",
+        "actions": [{
+          "title": "Mach ein Foto",
+          "action": "picture",
+          "postAction": "continue"
+        },{
+          "title": "kein Foto",
+          "action": "continue"
+        }]
+      }
+    ],
     "popups": [{
       "type": "",
       "title": "",
@@ -84,8 +90,21 @@
     "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de03.mp3",
     "iconUri": "https://angry-fermi-c85f46.netlify.app/icons/VordemTheater.jpg",
     "hasCountdown": false,
-    "nextMedias": [],
-    "userPrompt": [],
+    "userPrompt": [
+      {
+        "title": "Finden einen Mülleimer und mache ein Foto.",
+        "triggerTime": 20,
+        "srcUri": "https://angry-fermi-c85f46.netlify.app/medias/de01Loop.mp3",
+        "actions": [{
+          "title": "Mach ein Foto",
+          "action": "picture",
+          "postAction": "continue"
+        },{
+          "title": "kein Foto",
+          "action": "continue"
+        }]
+      }
+    ],
     "popups": [],
     "userMedia": []
   }]
